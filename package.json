@@ -1,0 +1,24 @@
+{
+  "name": "nmea0183",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Simulator": "nodemon --config nodemon.json tests/NMEASimulator.ts",
+    "SingleMessage": "nodemon --config nodemon.json tests/SingleMessage.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.5.0",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.6",
+    "@types/ws": "^8.2.3",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.5.5"
+  }
+}
